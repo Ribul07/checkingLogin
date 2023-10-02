@@ -55,6 +55,7 @@ public class Login {
 	   
    }
 	
+   //quit method
    @AfterMethod
    public void tearDown() {
 	   driver.quit();
